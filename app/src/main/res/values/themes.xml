@@ -1,0 +1,12 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.HortensiaInventory" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+         <item name="colorPrimary">@color/celadon</item>
+         <item name="colorPrimaryVariant">@color/celadon</item>
+         <item name="android:statusBarColor">@color/celadon</item>
+        <item name="android:textColor">@color/celadon</item>
+    </style>
+
+    <style name="Theme.HortensiaInventory" parent="Base.Theme.HortensiaInventory" />
+</resources>

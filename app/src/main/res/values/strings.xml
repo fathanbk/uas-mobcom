@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Hortensia Inventory</string>
+    <string name="developer">By Fathan Bainal Kaffi (1313621037)</string>
+    <string name="item_heading">Items</string>
+    <string name="add_item_heading">Add Item</string>
+    <string name="edit_item_heading">Edit Item</string>
+    <string name="add_item_name_heading">Item Name</string>
+    <string name="add_item_quantity_heading">Item Quantity</string>
+    <string name="add_item_price_heading">Item Price</string>
+</resources>

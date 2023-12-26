@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".AddItemActivity">
+
+    <TextView
+        android:id="@+id/addItemHeading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="16dp"
+        android:fontFamily="@font/poppins_semibold"
+        android:text="@string/add_item_heading"
+        android:textColor="@color/celadon"
+        android:textSize="24sp" />
+    
+    <ImageView
+        android:id="@+id/saveAddButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/baseline_done_24"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@id/addItemHeading"
+        android:layout_marginEnd="6dp"/>
+    <TextView
+        android:id="@+id/addItemName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/addItemHeading"
+        android:textSize="16sp"
+        android:fontFamily="@font/poppins"
+        android:textColor="@color/celadon"
+        android:text="@string/add_item_name_heading"/>
+        <EditText
+            android:id="@+id/nameItemAdd"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:hint="Enter Item Name"
+            android:padding="12dp"
+            android:textSize="20sp"
+            android:fontFamily="@font/poppins"
+            android:layout_below="@id/addItemName"
+            android:background="@drawable/celadon_border"
+            android:layout_marginTop="6dp"
+            android:maxLines="1"
+            android:inputType="text"/>
+    <TextView
+        android:id="@+id/addItemQuantity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/nameItemAdd"
+        android:layout_marginTop="10dp"
+        android:textSize="16sp"
+        android:fontFamily="@font/poppins"
+        android:textColor="@color/celadon"
+        android:text="@string/add_item_quantity_heading"/>
+        <EditText
+            android:id="@+id/quantityItemAdd"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:hint="Enter Item Quantity"
+            android:padding="12dp"
+            android:textSize="20sp"
+            android:fontFamily="@font/poppins"
+            android:layout_below="@id/addItemQuantity"
+            android:background="@drawable/celadon_border"
+            android:layout_marginTop="6dp"
+            android:maxLines="1"
+            android:inputType="text"/>
+
+    <TextView
+        android:id="@+id/addItemPrice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/quantityItemAdd"
+        android:layout_marginTop="10dp"
+        android:textSize="16sp"
+        android:fontFamily="@font/poppins"
+        android:textColor="@color/celadon"
+        android:text="@string/add_item_price_heading"/>
+        <EditText
+            android:id="@+id/priceItemAdd"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:hint="Enter Item Price"
+            android:padding="12dp"
+            android:textSize="20sp"
+            android:fontFamily="@font/poppins"
+            android:layout_below="@id/addItemPrice"
+            android:background="@drawable/celadon_border"
+            android:layout_marginTop="6dp"
+            android:maxLines="1"
+            android:inputType="text"/>
+
+
+
+</RelativeLayout>
